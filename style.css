@@ -1,0 +1,81 @@
+body{
+    background-color: white ;
+    color: black   ;
+    font-family: Helvetica;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+h1 {
+    text-align: center;
+    color: #9A00FF;
+    font-size: 40px;
+    padding: 10px;
+}
+.columns1 {
+    display: flex;
+    flex-direction: row;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+}
+.box_around{
+    width: 6%;
+    margin: 10px;
+    padding: 10px;
+    transition: border 200ms;
+}
+
+.box_around img{
+    width: 100px;
+}
+
+.description{
+    width: 250%;
+    margin: 10px;
+    flex-direction: column;
+}
+
+.best_player {
+    width: 60%;
+    margin: 100px;
+    flex-direction: row;
+}
+.best_player img{
+    width: 110%;
+}
+
+.club_game {
+    width: 20%;
+    margin: 70px;
+    font-size: 6rem;
+}
+
+
+
+
+
+nav {
+    border: 3px solid #2E549B;
+   background-color: white;
+   padding: 5px;
+   display: flex;
+   justify-content: space-around;
+}
+
+
+img {
+   width: 60px;
+}
+
+
+.items:hover {
+   background-color: gray;
+   opacity: 0.5;
+}
+
+
+/*PSG BAYERN BARCA REAL MADRID TOTTENHAM STOKES MAN CITY ARSENAL INTERNAZIONALE NEW YORK CITY FC
